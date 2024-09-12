@@ -1,54 +1,28 @@
-<!-- <!DOCTYPE html>
-<html>
-<body>
-
-<h2>The XMLHttpRequest Object</h2>
-
-<div id="demo">
-<p>Let AJAX change this text.</p>
-<button type="button" onclick="loadDoc()">Change Content</button>
-</div>
-<script src="./AJAX/XML_REQUEST/xmlObject.js"></script>
-<script>
-function loadDoc() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("demo").innerHTML = this.responseText;
-  }
-  xhttp.open("GET", "ajax_info.txt");
-  xhttp.send();
-}
-</script> 
-
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AJAX Examples</title>
-    <script src="ajax-examples.js" defer></script>
+<!--    <script src="ajax-examples.js" defer></script>-->
 </head>
 <body>
     <h1>AJAX Examples</h1>
 
-    <div id="controls">
-        <button onclick="getRequest()">GET Request</button>
-        <button onclick="getText()">GET Text File</button>
-        <button onclick="handleErrors()">Handle Errors</button>
-        <button onclick="postRequest()">POST Request</button>
-        <button onclick="putRequest()">PUT Request</button>
-        <button onclick="deleteRequest()">DELETE Request</button>
-    </div>
+<!--    <div id="controls">-->
+<!--        <button onclick="getRequest()">GET Request</button>-->
+<!--        <button onclick="getText()">GET Text File</button>-->
+<!--        <button onclick="handleErrors()">Handle Errors</button>-->
+<!--        <button onclick="postRequest()">POST Request</button>-->
+<!--        <button onclick="putRequest()">PUT Request</button>-->
+<!--        <button onclick="deleteRequest()">DELETE Request</button>-->
+<!--    </div>-->
 
-    <h2>Response Output</h2>
-    <pre id="response"></pre>
-    <script src="./AJAX/XML_REQUEST/xmlObject.js"></script>
+<!--    <h2>Response Output</h2>-->
+<!--    <pre id="response"></pre>-->
+<!--    <script src="./AJAX/XML_REQUEST/xmlObject.js"></script>-->
     <!-- <script src="./AJAX/FETCH_API/fetch.js"></script> -->
-    <script>
+<script src="/AJAX/index.js" TYPE="module" defer></script>
 
-    </script>
 </body>
 </html>
