@@ -1,4 +1,4 @@
-import { consoleWithStyle } from './../helper.js';
+import { consoleWithStyle } from '../../helper.js';
 // The keystone of AJAX is the XMLHttpRequest object.
 
 // 1) Create an XMLHttpRequest object
@@ -11,7 +11,7 @@ import { consoleWithStyle } from './../helper.js';
 // Create an XMLHttpRequest Object
 
 const XHRInstance = new XMLHttpRequest();
-consoleWithStyle('XHR instance:', XHRInstance);
+// consoleWithStyle('XHR instance:', XHRInstance);
 
 
 // =============================================================
@@ -20,7 +20,7 @@ consoleWithStyle('XHR instance:', XHRInstance);
 // Define a Callback Function
 
 XHRInstance.onload = function() {
-    // consoleWithStyle('Response:', this.response);
+    consoleWithStyle('Response:', this.response);
     // What to do when the response is ready
 }
 
@@ -29,5 +29,8 @@ XHRInstance.onload = function() {
 
 // Send a Request
 const URL = "/public/ajax_info.txt";
+
 XHRInstance.open("GET", URL);
 XHRInstance.send();
+
+consoleWithStyle('The Line after request');

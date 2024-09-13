@@ -1,5 +1,7 @@
 import { consoleWithStyle } from './../helper.js';
-import './xhr.js';
+// import './XML_REQUEST/xhr.js';
+import './XML_REQUEST/xhrRequest.js';
+// import './XML_REQUEST/xhrResponse.js';
 
 
 // Introduction
