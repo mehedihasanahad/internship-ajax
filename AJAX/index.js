@@ -1,7 +1,18 @@
 import { consoleWithStyle } from './../helper.js';
 // import './XML_REQUEST/xhr.js';
-import './XML_REQUEST/xhrRequest.js';
+// import './XML_REQUEST/xhrRequest.js';
 // import './XML_REQUEST/xhrResponse.js';
+
+
+// import './FETCH_API/fetch.js';
+
+import './axios.js';
+// =========================================================================================
+
+
+
+
+
 
 
 // Introduction
