@@ -84,7 +84,7 @@ import { readyStateDetails } from '../../public/readyStateDetails.js';
 //     };
   
 //     xhr.open("GET", url, true);
-//     xhr.send("");
+//     xhr.send();
 
 //     xhr.responseType = 'json';
 //     // xhr.responseType = 'text';  (default)
@@ -113,13 +113,13 @@ import { readyStateDetails } from '../../public/readyStateDetails.js';
 // xhr.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
 
 // // If specified, responseType must be empty string or "text"
-// // xhr.responseType = "json";
+// xhr.responseType = "json";
 
 // xhr.onload = () => {
 //   if (xhr.readyState === xhr.DONE) {
 //     if (xhr.status === 200) {
 //         consoleWithStyle('Response', xhr.response);
-//         consoleWithStyle('Response Text', xhr.responseText);
+//         // consoleWithStyle('Response Text', xhr.responseText);
 //     }
 //   }
 // };
@@ -142,6 +142,7 @@ import { readyStateDetails } from '../../public/readyStateDetails.js';
 
 
 // const xhr = new XMLHttpRequest();
+
 // xhr.open("GET", "/public/hello.xml");
 
 // // If specified, responseType must be empty string or "document"

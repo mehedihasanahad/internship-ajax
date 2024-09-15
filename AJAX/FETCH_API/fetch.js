@@ -11,7 +11,7 @@ import { consoleWithStyle } from "../../helper.js";
 //     }
 
 //     const data = await response.json();
-//     consoleWithStyle("GET Response successfully: \n", JSON.stringify(data, null, 2));
+//     consoleWithStyle("GET Response successfully: \n", JSON.stringify(data, null, 6));
 // })()
 
 
@@ -42,7 +42,7 @@ import { consoleWithStyle } from "../../helper.js";
 
 // (async function handleErrors() {
 //     try {
-//         const response = await fetch('nonexistentfile.txt'); // This file doesn't exist
+//         const response = await fetch('/nonexistentfile.txt'); // This file doesn't exist
 //         if (!response.ok) {
 //             throw new Error(`HTTP error! Status: ${response.status}`);
 //         }
@@ -83,7 +83,7 @@ import { consoleWithStyle } from "../../helper.js";
 //     } catch (error) {
 //         consoleWithStyle("POST Request failed:\n", error.message);
 //     }
-// })
+// })();
 
 
 
@@ -113,7 +113,7 @@ import { consoleWithStyle } from "../../helper.js";
 //     } catch (error) {
 //         consoleWithStyle("PUT Request failed:\n", error.message);
 //     }
-// })
+// })();
 
 
 
@@ -140,4 +140,4 @@ import { consoleWithStyle } from "../../helper.js";
 //     } catch (error) {
 //         consoleWithStyle("DELETE Request failed:\n", error.message);
 //     }
-// })
+// })()

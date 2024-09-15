@@ -27,15 +27,15 @@ import { consoleWithStyle } from '../../helper.js';
 
 // Simple GET API request with XHR
 
-function reqListener() {
-    // consoleWithStyle('API Response: ', this.responseText);
-    consoleWithStyle('Parsed API Response: ', JSON.parse(this.responseText));
-}
+// function reqListener() {
+//     // consoleWithStyle('API Response: ', this.responseText);
+//     consoleWithStyle('Parsed API Response: ', JSON.parse(this.responseText));
+// }
   
-  const req = new XMLHttpRequest();
-  req.addEventListener("load", reqListener);
-  req.open("GET", "https://jsonplaceholder.typicode.com/todos");
-  req.send();
+//   const req = new XMLHttpRequest();
+//   req.addEventListener("load", reqListener);
+//   req.open("GET", "https://jsonplaceholder.typicode.com/todos");
+//   req.send();
 
 
 
@@ -72,8 +72,8 @@ function reqListener() {
   
 // const req = new XMLHttpRequest();
 // req.addEventListener("load", reqListener);
-// req.open("GET", "https://jsonplaceholder.typicode.com/todos");
-// // req.open("GET", "https://jsonplaceholder.typicode.com/todos", false);
+// // req.open("GET", "https://jsonplaceholder.typicode.com/todos");
+// req.open("GET", "https://jsonplaceholder.typicode.com/todos", false);
 // req.send();
 
 // console.log("After request");

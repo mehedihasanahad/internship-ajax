@@ -6,7 +6,7 @@ import { consoleWithStyle } from './../helper.js';
 
 // import './FETCH_API/fetch.js';
 
-import './axios.js';
+// import './axios.js';
 // =========================================================================================
 
 
